@@ -1,3 +1,4 @@
+LEARNING OUTCOMES
 
 1. Gained practical understanding of building a Single Page Application (SPA) using React and React Router, enabling smooth client-side navigation without page reloads.
 
