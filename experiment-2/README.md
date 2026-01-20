@@ -1,16 +1,10 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Gained practical understanding of building a Single Page Application (SPA) using React and React Router, enabling smooth client-side navigation without page reloads.
 
-Currently, two official plugins are available:
+2. Learned to implement Material UI (MUI) components such as buttons, sliders, checkboxes, and dropdowns to create a consistent and responsive user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. Understood the importance of component-based architecture in React by breaking the application into reusable and modular components.
 
-## React Compiler
+4. Acquired hands-on experience in managing project dependencies and environment setup using Node.js, npm, and Vite.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+5. Developed skills in debugging React applications, including identifying rendering issues, dependency conflicts, and routing errors.
