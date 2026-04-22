@@ -75,18 +75,18 @@ jobs:
       - name: Build and push backend Docker image
         uses: docker/build-push-action@v5
         with:
-          context: Testing/Experiment_16/Experiment_16_Backend
+          context: Experiment_20/Experiment_20_Backend
           push: true
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/fsd2-experiment16-backend:latest
-            ${{ secrets.DOCKER_USERNAME }}/fsd2-experiment16-backend:${{ github.sha }}
+            ${{ secrets.DOCKER_USERNAME }}/fsd2-experiment20-backend:latest
+            ${{ secrets.DOCKER_USERNAME }}/fsd2-experiment20-backend:${{ github.sha }}
 
       - name: Build and push frontend Docker image
         uses: docker/build-push-action@v5
         with:
-          context: Testing/Experiment_16/Experiment_16_Frontend
-          file: Testing/Experiment_16/Experiment_16_Frontend/Dockerfile
+          context: Experiment_20/Experiment_20_Frontend
+          file: Experiment_20/Experiment_20_Frontend/Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/fsd2-experiment16-frontend:latest
-            ${{ secrets.DOCKER_USERNAME }}/fsd2-experiment16-frontend:${{ github.sha }}
+            ${{ secrets.DOCKER_USERNAME }}/fsd2-experiment20-frontend:latest
+            ${{ secrets.DOCKER_USERNAME }}/fsd2-experiment20-frontend:${{ github.sha }}
