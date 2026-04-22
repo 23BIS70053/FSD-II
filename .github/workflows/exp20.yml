@@ -15,7 +15,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: Testing/Experiment_20/Experiment_20_Backend
+        working-directory: Experiment_20/Experiment_20_Backend
 
     steps:
       - name: Checkout code
@@ -40,7 +40,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: Testing/Experiment_20/Experiment_20_Frontend
+        working-directory: Experiment_20/Experiment_20_Frontend
 
     steps:
       - name: Checkout code
