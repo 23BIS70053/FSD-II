@@ -1,4 +1,4 @@
-name: Experiment 16 Tests
+name: Experiment 20 CICD
 
 on:
   push:
